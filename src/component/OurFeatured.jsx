@@ -239,7 +239,7 @@ function OurFeatured() {
             <p className='text-[18px] w-[max-content]'>PageTraffic offers top-notch SEO and <br />digital marketing solutions.</p>
           </div>
           <div className='flex animate-pulse'>
-            <div className="bg-[url('/images/Jenny.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
+            <div className="bg-[url('../../public/images/Jenny.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
               <div className='flex justify-center items-center py-[.2rem] px-[.6rem]'>
                 <p className='w-[max-content] text-[12px] mr-[1rem]'>Jenny Wilson</p>
                 <span className='bg-[#E71D36] flex justify-between rounded-full scale-[0.6] py-[.5rem] px-[1rem]'>
