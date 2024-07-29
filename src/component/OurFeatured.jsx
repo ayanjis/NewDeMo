@@ -2,7 +2,7 @@ import React from 'react'
 import { IoMdStar } from "react-icons/io";
 import SideButton from './SideButton';
 import Social from './Social';
-import Jenny from '../../public/images/Jenny.png'
+import Jenny from '/public/images/Jenny.png'
 
 
 function OurFeatured() {
@@ -226,7 +226,7 @@ function OurFeatured() {
             <p className='text-[18px] w-[max-content]'>PageTraffic offers top-notch SEO and <br />digital marketing solutions.</p>
           </div>
           <div className='flex animate-pulse'>
-            <div className="bg-[url('../../public/images/Jenny.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
+            <div className="bg-[url('/public/images/Jenny.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
               <div className='flex justify-center items-center py-[.2rem] px-[.6rem]'>
                 <p className='w-[max-content] text-[12px] mr-[1rem]'>Jenny Wilson</p>
                 <span className='bg-[#E71D36] flex justify-between rounded-full scale-[0.6] py-[.5rem] px-[1rem]'>
@@ -236,7 +236,7 @@ function OurFeatured() {
               </div>
             </div>
 
-            <div className="bg-[url('/images/Jane.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
+            <div className="bg-[url('/public/images/Jane.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
               <div className='flex justify-center items-center py-[.2rem] px-[.6rem]'>
                 <p className='w-[max-content] text-[12px] mr-[1.5rem]'>Jane Cooper</p>
                 <span className='bg-[#E71D36]  flex rounded-full scale-[0.6] py-[.5rem] px-[1rem]'>
@@ -246,7 +246,7 @@ function OurFeatured() {
               </div>
             </div>
 
-            <div className="bg-[url('/images/Cody.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
+            <div className="bg-[url('/public/images/Cody.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
               <div className='flex justify-center items-center py-[.2rem] px-[.6rem]'>
                 <p className='w-[max-content] text-[12px] mr-[1.5rem]'>Cody Fisher</p>
                 <span className='bg-[#E71D36]  flex rounded-full scale-[0.6] py-[.5rem] px-[1rem]'>
@@ -256,7 +256,7 @@ function OurFeatured() {
               </div>
             </div>
 
-            <div className="bg-[url('/images/Darrell.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
+            <div className="bg-[url('/public/images/Darrell.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
               <div className='flex justify-center items-center py-[.2rem] px-[.6rem]'>
                 <p className='w-[max-content] text-[12px] mr-[.5rem]'>Darrell Steward</p>
                 <span className='bg-[#E71D36]  flex rounded-full scale-[0.6] py-[.5rem] px-[1rem]'>
