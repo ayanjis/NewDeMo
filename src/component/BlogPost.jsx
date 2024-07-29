@@ -3,7 +3,7 @@ import SideButton from './SideButton';
 
 function BlogPost() {
   return (
-    <div className="flex flex-col justify-center items-center mb-[6rem] scale-[1.14]">
+    <div className="flex flex-col justify-center items-center mb-[6rem] ">
       <h1 className="text-[45px] font-bold mb-[1.5rem]">See Our Blog Post</h1>
       <div className="flex justify-end items-center w-[70rem]">
         <SideButton />
@@ -19,7 +19,7 @@ function BlogPost() {
                 <p className="text-[small]">19 Feb, 2022/ By Admin</p>
                 <h1 className="text-[26px] font-semibold">UI/UX design Tips</h1>
                 <p className="text-[18px] w-[17rem] my-4 min-w-[15rem]">Promotion World has once placed<br />PageTraffic among the top.</p>
-                <span className='text-[#E71D36] flex animate-bounce'>
+                <span className='text-[#E71D36] flex '>
                   <p className='mr-4'>Read more</p>
                   <div>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@ function BlogPost() {
                   <p className="text-[small]">09 Apr, 2022/ By Admin</p>
                   <h1 className="text-[26px] font-semibold">Improve your UX/UI</h1>
                   <p className="text-[18px] w-[17rem] my-4 min-w-[15rem]">Promotion World has once placed<br />PageTraffic among the top.</p>
-                  <span className='text-[#2EC4B6] flex animate-bounce'>
+                  <span className='text-[#2EC4B6] flex '>
                     <p className='mr-4'>Read more</p>
                     <div>
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +67,7 @@ function BlogPost() {
                   <p className="text-[small]">19 Feb, 2022/ By Admin</p>
                   <h1 className="text-[26px] font-semibold">Meta Technology.</h1>
                   <p className="text-[18px] w-[17rem] my-4 min-w-[15rem]">Promotion World has once placed<br />PageTraffic among the top.</p>
-                  <span className='text-[#2EC4B6] flex animate-bounce'>
+                  <span className='text-[#2EC4B6] flex '>
                     <p className='mr-4'>Read more</p>
                     <div>
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -89,7 +89,7 @@ function BlogPost() {
                     <p className="text-[small]">19 Feb, 2022/ By Admin</p>
                     <h1 className="text-[26px] font-semibold ">PageTraffic Ranks</h1>
                     <p className="text-[18px] w-[17rem] my-4 min-w-[15rem]">Promotion World has once placed<br />PageTraffic among the top.</p>
-                    <span className='text-[#E71D36] flex animate-bounce'>
+                    <span className='text-[#E71D36] flex '>
                       <p className='mr-4'>Read more</p>
                       <div>
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

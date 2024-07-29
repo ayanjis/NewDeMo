@@ -9,11 +9,13 @@ function OurFeatured() {
   return (
     <div className="flex flex-col items-center">
       <div className="flex flex-col items-center">
-        <h1 className="text-[45px] font-bold">Our work featured on</h1>
+        <h1 className="text-[45px] font-bold
+        max-[425px]:text-[36px]">Our work featured on</h1>
         <Social/>
       </div>
       {/* /////////////////////////////////////////////////////////////////////////////////////// */}
-      <div className="flex justify-center my-[6rem]">
+      <div className="flex justify-center my-[6rem] 
+      max-[425px]:flex-col">
         <div className="flex flex-col justify-center mr-[15rem]">
           <h1 className="text-[30px] font-semibold w-[max-content]">HOW PAGETRAFFIC CREATES<br />HYPER BUSINESS GROWTH</h1>
           <p className="text-[20px] my-[3rem] w-[max-content]">PageTraffic offers top-notch SEO and digital<br /> marketing solutions to help you rank high on search <br />results,connect with.</p>
@@ -215,7 +217,7 @@ function OurFeatured() {
         </div>
       </div>
       {/* /////////////////////////////////////////////////////////////////////////////////////// */}
-      <div className="mb-[6rem] scale-[1.14]">
+      <div className="mb-[6rem]">
         <div className="flex justify-between my-[1rem] w-[71rem]">
           <h1 className="text-[#E71D36] text-[x-large] font-semibold">CASE STUDY</h1>
           <SideButton />
@@ -225,7 +227,7 @@ function OurFeatured() {
             <h1 className="text-[45px] w-[max-content] font-bold my-[1.5rem]">OUR CLIENT<br />GETS RESULTS</h1>
             <p className='text-[18px] w-[max-content]'>PageTraffic offers top-notch SEO and <br />digital marketing solutions.</p>
           </div>
-          <div className='flex animate-pulse'>
+          <div className='flex'>
             <div className="bg-[url('/public/images/Jenny.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
               <div className='flex justify-center items-center py-[.2rem] px-[.6rem]'>
                 <p className='w-[max-content] text-[12px] mr-[1rem]'>Jenny Wilson</p>

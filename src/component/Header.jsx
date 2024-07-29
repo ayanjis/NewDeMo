@@ -3,29 +3,46 @@ import NavBar from './NavBar'
 
 function Header() {
   return (
-    <div className="px-[10rem] pt-4 mb-[5rem] bg-[url('/public/images/Mask_group-Recovered-Recovered.png')] bg-no-repeat bg-cover">
-      <div className="mb-5 flex justify-between">
-        <h1 className='text-[65px] font-bold text-[#E71D36]'>DeMo.</h1>
-        <div className="flex items-center">
-          <div className="list-none mr-5 underline underline-offset-8 text-[#E71D36] text-[larger]">Services</div>
-          <div className="list-none mr-5 text-[larger]">Packages</div>
-          <div className="list-none mr-5 text-[larger]">Who We Are</div>
-          <div className="list-none mr-5 text-[larger]">Our Protfolio</div>
-          <div className="list-none mr-7 text-[larger]">About Us</div>
+    <div className="px-[10rem] pt-4 mb-[5rem] bg-[url('/public/images/Mask_group-Recovered-Recovered.png')] bg-no-repeat bg-cover 
+    max-[425px]:w-full max-[425px]:p-0 max-[425px]:overflow-hidden">
+      <div className="mb-5 flex justify-between 
+      max-[425px]:flex-col">
+        <h1 className='text-[65px] font-bold text-[#E71D36]
+        max-[425px]:text-center'>DeMo.</h1>
+        <div className="flex items-center 
+        max-[425px]:flex-col">
+          <div className="list-none mr-5 underline underline-offset-8 text-[#E71D36] text-[larger]
+          max-[425px]:mr-0 max-[425px]:mb-5">Services</div>
+          <div className="list-none mr-5 text-[larger]
+          max-[425px]:mr-0 max-[425px]:mb-5">Packages</div>
+          <div className="list-none mr-5 text-[larger]
+          max-[425px]:mr-0 max-[425px]:mb-5">Who We Are</div>
+          <div className="list-none mr-5 text-[larger]
+          max-[425px]:mr-0 max-[425px]:mb-5">Our Protfolio</div>
+          <div className="list-none mr-7 text-[larger]
+          max-[425px]:mr-0 max-[425px]:mb-5">About Us</div>
           <button className="bg-[#E71D36] text-[larger] rounded-full py-3 px-[3rem] text-white hover:shadow-lg hover:shadow-[#fe9ba7]">Contacts</button>
         </div>
       </div>
       {/* <NavBar/> */}
-      <div className="flex justify-between">
+      <div className="flex justify-between 
+      max-[425px]:flex-col max-[425px]:items-center">
         <div className="flex flex-col justify-end">
-          <div className="flex flex-col mb-[0.5rem]">
-            <span className='flex'><h1 className='text-[65px] font-bold mr-5'>BEST</h1><h1 className='text-[65px] font-bold text-[#E71D36]'>MARKETING</h1></span><h1 className='text-[65px] font-bold'>COMPANY.</h1>
+          <div className="flex flex-col mb-[0.5rem] max-[425px]:items-center">
+            <span className='flex'><h1 className='text-[65px] font-bold mr-5
+            max-[425px]:text-[40px]'>BEST</h1><h1 className='text-[65px] font-bold text-[#E71D36]
+            max-[425px]:text-[40px]'>MARKETING</h1></span><h1 className='text-[65px] font-bold
+            max-[425px]:text-[40px]'>COMPANY.</h1>
           </div>
-          <h4 className="text-[26px] font-bold my-[2rem]">#1 MARKETING Services Agency in USA & UK</h4>
-          <p className="text-[larger] mb-[4rem]">If you're looking for the best SEO company for your business,<br />PageTraffic
+          <h4 className="text-[26px] font-bold my-[2rem]
+          max-[425px]:text-[18px]">#1 MARKETING Services Agency in USA & UK</h4>
+          <p className="text-[larger] mb-[4rem]
+          max-[425px]:text-[small]">If you're looking for the best SEO company for your business,<br />PageTraffic
             is the perfect choice. </p>
-          <div className="flex items-center mb-[2rem]">
-            <button className="bg-[#E71D36] text-[larger] rounded-full py-3 px-[3rem] text-white mr-8 hover:shadow-lg hover:shadow-[#fe9ba7]">Get start</button>
+          <div className="flex items-center mb-[2rem]
+          ">
+            <button className="bg-[#E71D36] text-[larger] rounded-full py-3 px-[3rem] text-white mr-8 hover:shadow-lg hover:shadow-[#fe9ba7]
+             max-[425px]:mr-5">Get start</button>
             <span className="flex flex items-center">
               <div className="mr-2 animate-pulse">
                 <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,7 +56,7 @@ function Header() {
             </span>
           </div>
         </div>
-        <div>
+        <div className='max-[425px]:hidden'>
           <img src="images/ave.png" alt="" />
         </div>
       </div>

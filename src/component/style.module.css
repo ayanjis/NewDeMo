@@ -22,7 +22,7 @@ body {
   display: flex;
   overflow: hidden;
   padding: 60px 0;
-  margin-top: 1rem;
+  margin-top: 2rem;
   width: 76rem;
   background: #fbe6e682;
   white-space: nowrap;
@@ -62,4 +62,10 @@ body {
 .logosSlide img {
   height: 50px;
   margin: 0 40px;
+}
+
+@media (max-width: 425px) {
+  .logos {
+    scale: .3
+  }
 }

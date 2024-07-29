@@ -2,7 +2,7 @@ import React from 'react'
 
 function OurPortfolio() {
   return (
-    <div className="flex flex-col justify-center items-center mb-[6rem] scale-[1.14]">
+    <div className="flex flex-col justify-center items-center mb-[6rem]">
       <h1 className="text-[45px] font-bold mb-[1.5rem]">Our Portfolio</h1>
       <div className="mb-[1.5rem]">
         <span className="mr-[3rem] text-[larger]">All</span>
