@@ -215,8 +215,8 @@ function OurFeatured() {
         </div>
       </div>
       {/* /////////////////////////////////////////////////////////////////////////////////////// */}
-      <div className="mb-[6rem]">
-        <div className="flex justify-between my-[1rem] w-[77rem]">
+      <div className="mb-[6rem] scale-[1.14]">
+        <div className="flex justify-between my-[1rem] w-[71rem]">
           <h1 className="text-[#E71D36] text-[x-large] font-semibold">CASE STUDY</h1>
           <SideButton />
         </div>

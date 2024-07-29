@@ -3,9 +3,9 @@ import SideButton from './SideButton';
 
 function BlogPost() {
   return (
-    <div className="flex flex-col justify-center items-center mb-[6rem]">
+    <div className="flex flex-col justify-center items-center mb-[6rem] scale-[1.14]">
       <h1 className="text-[45px] font-bold mb-[1.5rem]">See Our Blog Post</h1>
-      <div className="flex justify-end items-center w-[77rem]">
+      <div className="flex justify-end items-center w-[70rem]">
         <SideButton />
       </div>
       <div>
