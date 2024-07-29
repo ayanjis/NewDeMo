@@ -1,8 +1,9 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 function Header() {
   return (
-    <div className="px-[10rem] pt-4 mb-[5rem] bg-[url('images/Mask_group-Recovered-Recovered.png')] bg-no-repeat bg-cover">
+    <div className="px-[10rem] pt-4 mb-[5rem] bg-[url('/public/images/Mask_group-Recovered-Recovered.png')] bg-no-repeat bg-cover">
       <div className="mb-5 flex justify-between">
         <h1 className='text-[65px] font-bold text-[#E71D36]'>DeMo.</h1>
         <div className="flex items-center">
@@ -14,6 +15,7 @@ function Header() {
           <button className="bg-[#E71D36] text-[larger] rounded-full py-3 px-[3rem] text-white hover:shadow-lg hover:shadow-[#fe9ba7]">Contacts</button>
         </div>
       </div>
+      {/* <NavBar/> */}
       <div className="flex justify-between">
         <div className="flex flex-col justify-end">
           <div className="flex flex-col mb-[0.5rem]">
@@ -25,9 +27,9 @@ function Header() {
           <div className="flex items-center mb-[2rem]">
             <button className="bg-[#E71D36] text-[larger] rounded-full py-3 px-[3rem] text-white mr-8 hover:shadow-lg hover:shadow-[#fe9ba7]">Get start</button>
             <span className="flex flex items-center">
-              <div className="mr-2 animate-ping">
+              <div className="mr-2 animate-pulse">
                 <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect width="52" height="52" rx="26" fill="#E71D36" fill-opacity="0.17" />
+                  <rect width="52" height="52" rx="26" fill="#E71D36" fill-opacity="0.17"/>
                   <rect x="5" y="6" width="41" height="41" rx="20.5" fill="#E71D36" fill-opacity="0.5" />
                   <rect x="11" y="11" width="30" height="30" rx="15" fill="#E71D36" />
                   <path d="M31.5 25.634C32.1667 26.0189 32.1667 26.9811 31.5 27.366L23.25 32.1292C22.5833 32.5141 21.75 32.0329 21.75 31.2631L21.75 21.7369C21.75 20.9671 22.5833 20.4859 23.25 20.8708L31.5 25.634Z" fill="white" />

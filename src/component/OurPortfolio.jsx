@@ -15,29 +15,29 @@ function OurPortfolio() {
         <div className="flex mb-5">
           <div className="transition duration-300 ease-in-out mr-5 hover:drop-shadow-2xl">
             <img src="images/image 8.png" alt="" 
-            className='transition duration-300 ease-in-out hover:scale-110'/>
+            className='transition duration-300 ease-in-out hover:scale-105'/>
           </div>
           <div className="transition duration-300 ease-in-out mr-5 hover:drop-shadow-2xl">
             <img src="images/image 9.png" alt="" 
-            className='transition duration-300 ease-in-out hover:scale-110'/>
+            className='transition duration-300 ease-in-out hover:scale-105'/>
           </div>
           <div className="transition duration-300 ease-in-out mr-5 hover:drop-shadow-2xl">
             <img src="images/image 10.png" alt="" 
-            className='transition duration-300 ease-in-out hover:scale-110'/>
+            className='transition duration-300 ease-in-out hover:scale-105'/>
           </div>
         </div>
         <div className="flex">
         <div className="transition duration-300 ease-in-out mr-5 hover:drop-shadow-2xl">
             <img src="images/image 11.png" alt="" 
-            className='transition duration-300 ease-in-out hover:scale-110'/>
+            className='transition duration-300 ease-in-out hover:scale-105'/>
           </div>
           <div className="transition duration-300 ease-in-out mr-5 hover:drop-shadow-2xl">
             <img src="images/image 12.png" alt="" 
-            className='transition duration-300 ease-in-out hover:scale-110'/>
+            className='transition duration-300 ease-in-out hover:scale-105'/>
           </div>
           <div className="transition duration-300 ease-in-out mr-5 hover:drop-shadow-2xl">
             <img src="images/image 13.png" alt="" 
-            className='transition duration-300 ease-in-out hover:scale-110'/>
+            className='transition duration-300 ease-in-out hover:scale-105'/>
           </div>
         </div>
       </div>

@@ -14,14 +14,22 @@ function Footer() {
         <div className="mr-[8rem]">
           <p className="mb-[2.5rem] w-[max-content] text-[20px]">FindBestSEO has ranked PageTraffic <br /> among the top 10 SEO companies for <br /> 2020.</p>
           <div className='flex'>
+            <a href="https://www.facebook.com/learnbuildteach/">
             <img src="images/fb.png" alt=""
               className="mr-[4rem] transition duration-300 ease-in-out hover:scale-110" />
+            </a>
+            <a href="https://in.linkedin.com/">
             <img src="images/in.png" alt=""
               className="mr-[4rem] transition duration-300 ease-in-out hover:scale-110" />
+            </a>
+            <a href="https://wwww.twitter.com">
             <img src="images/tw.png" alt=""
               className="mr-[4rem] transition duration-300 ease-in-out hover:scale-110" />
+            </a>
+            <a href="https://www.youtube.com/c/jamesqquick">
             <img src="images/Youtube.png" alt=""
               className="transition duration-300 ease-in-out hover:scale-110" />
+            </a>
           </div>
         </div>
         <div className="mr-[8rem]">

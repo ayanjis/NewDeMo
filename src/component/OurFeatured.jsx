@@ -1,6 +1,7 @@
 import React from 'react'
 import { IoMdStar } from "react-icons/io";
 import SideButton from './SideButton';
+import Social from './Social';
 
 
 function OurFeatured() {
@@ -8,22 +9,7 @@ function OurFeatured() {
     <div className="flex flex-col items-center">
       <div className="flex flex-col items-center">
         <h1 className="text-[45px] font-bold">Our work featured on</h1>
-        <div className="my-4 flex bg-[#FFFBFB] shadow-xl rounded-lg py-[1rem] px-[4rem]">
-          <img src="images/forbe-logo.png" alt=""
-            className='mr-[3.5rem] scale-y-105' />
-
-          <img src="images/Netflix.png" alt=""
-            className='mr-[3.5rem] w-[20rem] scale-y-75' />
-
-          <img src="images/amazon.png" alt=""
-            className='mr-[3.5rem] w-[20rem] scale-y-[.6] scale-x-[0.8]' />
-
-          <img src="images/sej-logo.png" alt=""
-            className='mr-[3.5rem]' />
-
-          <img src="images/entrepreneur-logo.png" alt=""
-            className='' />
-        </div>
+        <Social/>
       </div>
       {/* /////////////////////////////////////////////////////////////////////////////////////// */}
       <div className="flex justify-center my-[6rem]">
@@ -110,7 +96,7 @@ function OurFeatured() {
         </div>
         <div className="flex">
           <div className="mr-4">
-            <div className="bg-gradient-to-t from-white to-[#E71D36] p-[1px] rounded-[1.5rem] shadow-lg my-6 transition duration-300 ease-in-out hover:scale-110">
+            <div className="bg-gradient-to-t from-white to-[#E71D36] p-[1px] rounded-[1.5rem] shadow-lg my-6 transition duration-300 ease-in-out hover:scale-105">
               <div className="bg-gradient-to-t from-white to-red-50 rounded-[1.5rem] p-5">
                 <div className="p-[1.5rem] bg-[#FFECEA] w-fit rounded-xl mb-[2rem]">
                   <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -138,7 +124,7 @@ function OurFeatured() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-t from-white to-[#2EC4B6] p-[1px] rounded-[1.5rem] shadow-lg my-6 transition duration-300 ease-in-out hover:scale-110">
+            <div className="bg-gradient-to-t from-white to-[#2EC4B6] p-[1px] rounded-[1.5rem] shadow-lg my-6 transition duration-300 ease-in-out hover:scale-105">
               <div className="bg-gradient-to-t from-white to-emerald-50 rounded-[1.5rem] p-5 ">
 
                 <div className="p-[1.5rem] bg-[#D2FFFB] w-fit rounded-xl mb-[2rem]">
@@ -169,7 +155,7 @@ function OurFeatured() {
             </div>
           </div>
           <div className="pt-[6rem]">
-            <div className="bg-gradient-to-t from-white to-[#2EC4B6] p-[1px] rounded-[1.5rem] shadow-lg my-6 transition duration-300 ease-in-out hover:scale-110">
+            <div className="bg-gradient-to-t from-white to-[#2EC4B6] p-[1px] rounded-[1.5rem] shadow-lg my-6 transition duration-300 ease-in-out hover:scale-105">
               <div className="bg-gradient-to-t from-white to-emerald-50 rounded-[1.5rem] p-5">
                 <div className="p-[1.5rem] bg-[#D2FFFB] w-fit rounded-xl mb-[2rem]">
                   <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -197,7 +183,7 @@ function OurFeatured() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-t from-white to-[#E71D36] p-[1px] rounded-[1.5rem] shadow-lg my-6 transition duration-300 ease-in-out hover:scale-110">
+            <div className="bg-gradient-to-t from-white to-[#E71D36] p-[1px] rounded-[1.5rem] shadow-lg my-6 transition duration-300 ease-in-out hover:scale-105">
               <div className="bg-gradient-to-t from-white to-red-50 rounded-[1.5rem] p-5">
                 <div className="p-[1.5rem] bg-[#FFECEA] w-fit rounded-xl mb-[2rem]">
                   <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -239,7 +225,7 @@ function OurFeatured() {
             <p className='text-[18px] w-[max-content]'>PageTraffic offers top-notch SEO and <br />digital marketing solutions.</p>
           </div>
           <div className='flex animate-pulse'>
-            <div className="bg-[url('../../public/images/Jenny.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
+            <div className="bg-[url('/public/images/Jenny.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
               <div className='flex justify-center items-center py-[.2rem] px-[.6rem]'>
                 <p className='w-[max-content] text-[12px] mr-[1rem]'>Jenny Wilson</p>
                 <span className='bg-[#E71D36] flex justify-between rounded-full scale-[0.6] py-[.5rem] px-[1rem]'>
@@ -249,7 +235,7 @@ function OurFeatured() {
               </div>
             </div>
 
-            <div className="bg-[url('images/Jane.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
+            <div className="bg-[url('/public/images/Jane.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
               <div className='flex justify-center items-center py-[.2rem] px-[.6rem]'>
                 <p className='w-[max-content] text-[12px] mr-[1.5rem]'>Jane Cooper</p>
                 <span className='bg-[#E71D36]  flex rounded-full scale-[0.6] py-[.5rem] px-[1rem]'>
@@ -259,7 +245,7 @@ function OurFeatured() {
               </div>
             </div>
 
-            <div className="bg-[url('images/Cody.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
+            <div className="bg-[url('/public/images/Cody.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
               <div className='flex justify-center items-center py-[.2rem] px-[.6rem]'>
                 <p className='w-[max-content] text-[12px] mr-[1.5rem]'>Cody Fisher</p>
                 <span className='bg-[#E71D36]  flex rounded-full scale-[0.6] py-[.5rem] px-[1rem]'>
@@ -269,7 +255,7 @@ function OurFeatured() {
               </div>
             </div>
 
-            <div className="bg-[url('images/Darrell.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
+            <div className="bg-[url('/public/images/Darrell.png')] bg-no-repeat bg-cover w-[11rem] h-[18.6rem] rounded-lg text-[white] flex items-end pr-[0.5rem] mr-5">
               <div className='flex justify-center items-center py-[.2rem] px-[.6rem]'>
                 <p className='w-[max-content] text-[12px] mr-[.5rem]'>Darrell Steward</p>
                 <span className='bg-[#E71D36]  flex rounded-full scale-[0.6] py-[.5rem] px-[1rem]'>
